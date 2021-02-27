@@ -1,0 +1,59 @@
+.container {
+    background-color: rgb(255, 255, 240);
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(202, 181, 63);
+    padding: 30px;
+    border-style: solid;
+}
+
+body {
+    background-color:rgb(126, 211, 226)  ;
+    margin: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card {
+    list-style: none;
+    padding: 40px;
+    background-color: rgb(211, 198, 183);
+    border-radius: 40px;
+    text-align: center;
+}
+
+.fire {
+    background-color: red;
+}
+
+.bug {
+    background-color: greenyellow;
+}
+
+.card:hover {
+    color: rgb(53, 58, 44);
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.card-image {
+    height: 180px;
+    background-color: rgb(98, 158, 150);
+    border-radius: 15px;
+}
+
+#pokedex {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+}
